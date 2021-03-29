@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<p>
+    <h2>Latest Articles</h2>
+
+{{#each cube}}
+<div class="cube">
+    
+    <p class="name">{{name}}</p>
+    <p class="description">{{getShortDescription 150 description}}</p>
+    
+    <a class="btn" href="/details/{{_id}}">Read More</a>
+</div>
+
+{{else}}
+<h2>No Articles Found</h2>
+{{/each}}

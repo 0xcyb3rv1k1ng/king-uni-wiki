@@ -1,0 +1,15 @@
+
+
+<h1>{{cube.name}}</h1>
+
+<div class="details">
+  <p><span>Name:</span>{{cube.name}}</p>
+  <p><span>Description:</span> {{cube.description}}</p>
+  
+  <div align="center">
+    <a class="btn" href="/">Back</a>
+    
+    <a class="btn" href="/editCube/{{cube._id}}">Edit</a>
+    <a class="btn" href="/deleteCube/{{cube._id}}">Delete</a>
+  </div>
+</div>

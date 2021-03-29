@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>
+    <h2>All articles</h2>
+
+{{#each cube}}
+<div class="cube">
+    
+    <a class="btn" href="/details/{{_id}}">{{name}}</p>
+    
+</div>
+
+{{else}}
+<h2>No Articles Found</h2>
+{{/each}}

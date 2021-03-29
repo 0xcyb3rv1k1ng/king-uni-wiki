@@ -1,0 +1,20 @@
+<h1>Register</h1>
+<div class="form">
+    <form action='/register' method="POST">
+        {{!-- Username --}}
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Username">
+
+        {{!-- Password --}}
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password">
+
+        {{!-- Repeat Password --}}
+        <label for="repeatPassword">RepeatPassword</label>
+        <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Retype Your Password">
+
+        {{!-- Submit --}}
+        <input type="submit" value="Register">
+        <a class="btn" href="/">Cancel</a>
+    </form>
+</div>
